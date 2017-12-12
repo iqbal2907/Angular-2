@@ -9,9 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-//import { TutorialsComponent } from './concepts/Tutorial_6_Creating_your_first_component/tutorials.component';
-//import { TutorialsComponent } from './concepts/Tutorial_7_Styling_Components/tutorials.component';
-var tutorials_component_1 = require('./concepts/Tutorial _10 _Event_Binding_and_References/tutorials.component');
+var tutorials_component_1 = require('./concepts/Tutorial_6_Creating_your_first_component/tutorials.component');
 var AppComponent = (function () {
     function AppComponent() {
     }

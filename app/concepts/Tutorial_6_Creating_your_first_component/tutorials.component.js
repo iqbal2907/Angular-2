@@ -9,21 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-//import { TutorialsComponent } from './concepts/Tutorial_6_Creating_your_first_component/tutorials.component';
-//import { TutorialsComponent } from './concepts/Tutorial_7_Styling_Components/tutorials.component';
-var tutorials_component_1 = require('./concepts/Tutorial _10 _Event_Binding_and_References/tutorials.component');
-var AppComponent = (function () {
-    function AppComponent() {
+var TutorialsComponent = (function () {
+    function TutorialsComponent() {
     }
-    AppComponent = __decorate([
+    TutorialsComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: "<h1>First Angular 2 App</h1>\n              <my-tutorials></my-tutorials>",
-            directives: [tutorials_component_1.TutorialsComponent]
+            selector: "my-tutorials",
+            template: '<h2>Iqbals Tutorials Component</h2><p>Hi this is</p>'
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], TutorialsComponent);
+    return TutorialsComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.TutorialsComponent = TutorialsComponent;
+//# sourceMappingURL=tutorials.component.js.map
