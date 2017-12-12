@@ -13,13 +13,13 @@ var TutorialsComponent = (function () {
     function TutorialsComponent() {
         this.title = "Angular 2 Tutorial - 10 - Event Binding and References";
     }
-    TutorialsComponent.prototype.onclick = function (value) {
+    TutorialsComponent.prototype.onClick = function (value) {
         console.log(value);
     };
     TutorialsComponent = __decorate([
         core_1.Component({
             selector: "my-tutorials",
-            template: "<h2>{{title}}</h2>\n              <button (click) = \"onClick(demoInput.value)\">Click me</button>\n              <input type=\"text\" #demoInput> \n              "
+            template: "<h2>{{title}}</h2>\n              <button (click) = \"onClick(demoInput.value)\">Click me</button>\n              <input type=\"text\" #demoInput>"
         }), 
         __metadata('design:paramtypes', [])
     ], TutorialsComponent);
