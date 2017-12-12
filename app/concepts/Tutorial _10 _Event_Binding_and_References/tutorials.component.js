@@ -26,4 +26,6 @@ var TutorialsComponent = (function () {
     return TutorialsComponent;
 }());
 exports.TutorialsComponent = TutorialsComponent;
+//Note : we can use button(mouseover) instead of button (click) in order to fire event on mouse over.
+// also to catch whole event we can use onClick($event) instead of onClick(demoInput.value) 
 //# sourceMappingURL=tutorials.component.js.map

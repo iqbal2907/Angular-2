@@ -12,3 +12,6 @@ export class TutorialsComponent {
     console.log(value);
   }
 }
+
+//Note : we can use button(mouseover) instead of button (click) in order to fire event on mouse over.
+// also to catch whole event we can use onClick($event) instead of onClick(demoInput.value)
