@@ -11,7 +11,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 //import { TutorialsComponent } from './concepts/Tutorial_6_Creating_your_first_component/tutorials.component';
 //import { TutorialsComponent } from './concepts/Tutorial_7_Styling_Components/tutorials.component';
-var tutorials_component_1 = require('./concepts/Tutorial _10 _Event_Binding_and_References/tutorials.component');
+//import { TutorialsComponent } from './concepts/Tutorial _10 _Event_Binding_and_References/tutorials.component';
+//import { TutorialsComponent } from './concepts/Tutorial _11 _Two_Way_Binding/tutorials.component';
+var tutorials_component_1 = require('./concepts/Tutorial_12_Structural_Directives/tutorials.component');
 var AppComponent = (function () {
     function AppComponent() {
     }
