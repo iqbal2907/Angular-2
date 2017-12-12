@@ -8,4 +8,4 @@ In order to start get these code then open cmd from pwd and run following comman
 > npm install 
 
 2. In order to start application on server use this command
-> npm install
+> npm start
