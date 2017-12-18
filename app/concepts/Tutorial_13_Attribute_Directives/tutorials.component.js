@@ -14,6 +14,8 @@ var TutorialsComponent = (function () {
         this.title = "Tutorial - 13 - Attribute Directives";
         this.class1 = true;
         this.class2 = true;
+        this.style = 'italic';
+        this.size = '50px';
     }
     TutorialsComponent.prototype.toggle = function () {
         this.class1 = !this.class1;
@@ -22,7 +24,7 @@ var TutorialsComponent = (function () {
     TutorialsComponent = __decorate([
         core_1.Component({
             selector: "my-tutorials",
-            template: "<h2>{{title}}</h2>\n              <p [ngClass]=\"{classOne:class1, classTwo:class2}\">ngClass paragraph</p>\n              <button (click)=\"toggle()\">Toggle</button>\n              ",
+            template: "<h2>{{title}}</h2>\n              <p [ngClass]=\"{classOne:class1, classTwo:class2}\">ngClass paragraph</p>\n              <button (click)=\"toggle()\">Toggle</button>\n              <p [ngStyle]=\"{'font-style':style, 'font-size':size}\">ngStyle Paragraph</p>\n              ",
             styles: [".classOne{color:white}\n            .classTwo{background-color:black}"]
         }), 
         __metadata('design:paramtypes', [])
